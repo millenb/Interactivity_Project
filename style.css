@@ -1,0 +1,51 @@
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid 1x gray;
+    align-items: center;
+    gap: 30px;
+}
+
+h1 {
+    width: 33%;
+    height: 33%;
+    text-align: center;
+    /* border: solid 1px gray; */
+}
+
+#messages {
+    width: 50%;
+    height: 67%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* border: solid 1px gray; */
+}
+
+.message {
+    width: 100%;
+    height: 10%;
+    border: solid 1px gray;
+    text-align: center;
+    padding: 10px;
+}
+
+#secret_message {
+    width: 50%;
+    height: 67%;
+    text-align: center;
+}
+
+#button {
+    text-decoration-line: underline;
+}
+
+#pic {
+    opacity: 0;
+}
+
+#surprise {
+    margin-top: 500px;
+}
